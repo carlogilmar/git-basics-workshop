@@ -119,7 +119,7 @@ Practice 7:
 
 ### Practice 1
 
-- Open the terminal and print your current folder
+1. Open the terminal and print your current folder
 
 For list the current folder for *nix users:
 > pwd
@@ -127,20 +127,20 @@ For list the current folder for *nix users:
 For list the current folder for windows users:
 > <put-the-command>
 
-- Go to your desktop and create a folder named "workshop"
+2. Go to your desktop and create a folder named "workshop"
 
 For *nix users
 > ls
 > cd Desktop
 > mkdir workshop
 
-- See this folder in your files application and go
+3. See this folder in your files application and go
 
 For *nix users
 > ls
 > cd workshop
 
-- Create a file name "readme.md" in this folder
+4. Create a file name "readme.md" in this folder
 
 For *nix users
 > touch readme.md
