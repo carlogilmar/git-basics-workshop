@@ -110,7 +110,7 @@
 - Modify the file <add-file>
 - Open a new pull request
 
-- Why you should use git
+### Why you should use git
 
 ### Practice 1
 
