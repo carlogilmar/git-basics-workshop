@@ -37,15 +37,10 @@ Practice 1:
 Practice 2:
 	- In your terminal go to the previous folder created
 	- Create a git repository
-		> "git init"
 	- See the git status
-		> "git status"
 	- Add the file "readme.md"
-		> "git add readme.md"
 	- Make a commit
-		> git commit -m "This is my first commit"
 	- See the log
-		> git log
 
 - Git Basics
 	- Create a new repository
@@ -147,13 +142,66 @@ For *nix users
 
 ### Practice 2
 
+1. In your terminal go to the previous folder created
+2. Create a git repository
+> "git init"
+
+3. See the git status
+> "git status"
+
+4. Add the file "readme.md"
+> "git add readme.md"
+
+5. Make a commit
+> git commit -m "This is my first commit"
+
+6. See the log
+> git log
+
 ### Practice 3
+
+1. Add a new file in the folder
+> touch other-file.txt
+
+2. Add this change in the repository and see the log
+> git status
+> git add other-file.txt
+> git commit -m "Adding a new file"
+> git log
+
+3. Make at least 3 commits
 
 ### Practice 4
 
+1. Add something in *other-file.txt* and discard changes
+> git diff other-file.txt
+> git checkout -- other-file.txt
+
+2. Go to a previous commit
+> git log
+> git checkout <commit-hash>
+
+3. Return to the last commit
+> git checkout master
+
+4. See the commit stats
+> git log --pretty=oneline
+
 ### Practice 5
 
-### Practice 6
+1. Clone the follow repository <add-repository>
+> git clone https://github.com/carlogilmar/git-basics-workshop.git
 
-### Practice 7
+2. See the log
+> git log
+
+3. See the file history
+> git blame readme.md
+
+4. See an specific commit
+> git show 9e4fc70a
+
+5. Go to a previous commit and go to the last commit
+> git checkout 9e4fc70a
+> git checkout master
 
