@@ -1,6 +1,31 @@
 # Git & CLI workshop
 
+[Slides](https://docs.google.com/presentation/d/1784rb52eZTSQqkX7A3v-d-ZyU7dER1QbGcoU76yrG8A/edit#slide=id.p)
+
+## Goals: Learn about...
+
+- Command line basic commands
+- How to create a git repository and how it works
+- How to use GitHub and GitHub flow
+
 ## AGENDA
+
+- Tools for make software
+- Command Line
+- Tooling for command line
+- Git: Version Control System
+- Git Basics
+- Git Usages
+- GitHub
+- GitHub Workflow
+- Why you should use git
+
+- Practice 1 Using the command line
+- Practice 2 Creating a new git repository
+- Practice 3 Making commits
+- Practice 4 Exploring repositories
+- Practice 5 Creating a repository in GitHub
+- Practice 6 GitHub flow
 
 ### Tools for make software
 - Text Editor
@@ -9,7 +34,6 @@
 
 ### Command Line
 - SO UNIX Systems
-- SO Windows
 - Basic commands
 
 ### Practice 1:
@@ -25,7 +49,8 @@
 - Tmux
 - Htop
 
-### Books and articles about SO and Command line
+[Chocolatey](https://chocolatey.org/)
+[Brew](https://brew.sh/index_es)
 
 ### Git: Version Control System
 - VCS history
@@ -33,6 +58,26 @@
 - Projects analized by git
 - Open Source movement
 - Why you should use git?
+
+[Git](https://git-scm.com/)
+[Download Git](https://git-scm.com/downloads)
+[Free Git Book](https://git-scm.com/book/en/v2)
+[Windows: Installing Git](https://hackernoon.com/install-git-on-windows-9acf2a1944f0)
+[Git Bash](https://gitforwindows.org/)
+
+For Linux users
+> sudo apt-get install git
+
+For MacOS users
+> brew install git
+
+For Windows users:
+- Download the installer
+- Start the installer
+- Install **Git Bash** and **Git GUI**
+- Select **Use Git from Git Bash only** / **Checkout windows-style** / **Use Min TTY**
+- Launch **Git Batch**
+*Too much for use git in windows!!! 😥*
 
 ### Practice 2:
 - In your terminal go to the previous folder created
@@ -55,6 +100,8 @@
 - Add this change in the repository and see the log
 - Make at least 3 commits
 
+[Git Practice Reference](http://carlogilmar.me/post/git-resume/)
+
 ### Practice 4:
 - Add something and discard changes
 - Go to a previous commit
@@ -71,8 +118,8 @@
 - Remote Repository
 - Clone a repository
 
-### Practice 5:
-- Clone the follow repository <add-repository>
+### Practice 4:
+- Clone the follow repository: https://github.com/carlogilmar/Learning_Manager.git
 - See the log
 - See the file history
 - See an specific commit
@@ -85,7 +132,7 @@
 - Push your changes
 - See your changes in GitHub
 
-### Practice 6:
+### Practice 5:
 - Create a new repository in GitHub
 - Add a new file "index.html"
 - Add html content and commit changes
@@ -104,8 +151,8 @@
 - Manage conflicts in GitHub
 - Merge a pull request
 
-### Practice 7:
-- Go to the next repository: <add-repository>
+### Practice 6:
+- Go to the next repository: https://github.com/carlogilmar/git-basics-workshop
 - Fork the repository in your GitHub account
 - Modify the file <add-file>
 - Open a new pull request
